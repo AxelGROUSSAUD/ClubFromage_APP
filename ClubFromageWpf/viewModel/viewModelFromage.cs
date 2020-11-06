@@ -5,8 +5,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
-using ModelLayer.Business;
-using ModelLayer.Data;
+using Model.buisness;
+using Model.data;
 using WpfClubFromage.viewModel;
 
 namespace WpfClubFromage.viewModel
@@ -19,7 +19,7 @@ namespace WpfClubFromage.viewModel
         //déclaration des propriétés avec OnPropertyChanged("nom_propriété_bindée")
 
         //déclaration du contructeur de viewModelFromage
-        public viewModelFromage(DaoPays thedaopays, DaoFromage thedaofromage)
+        public viewModelFromage(daoPays thedaopays, daoFromage thedaofromage)
         {
 
         }

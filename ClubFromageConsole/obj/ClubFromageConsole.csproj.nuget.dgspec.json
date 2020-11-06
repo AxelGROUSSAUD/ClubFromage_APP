@@ -108,7 +108,11 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\Axel_Groussaud\\Projets.Exercices_visual_studio\\Club_Fromage\\ModelLayer\\ModelLayer.csproj": {
+                "projectPath": "D:\\Axel_Groussaud\\Projets.Exercices_visual_studio\\Club_Fromage\\ModelLayer\\ModelLayer.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

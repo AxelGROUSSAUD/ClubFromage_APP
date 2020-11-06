@@ -12,7 +12,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-using ModelLayer.Data;
+using Model.buisness;
+using Model.data;
 
 namespace WpfClubFromage
 {
@@ -21,10 +22,10 @@ namespace WpfClubFromage
     /// </summary>
     public partial class Home : Window
     {
-        DaoPays homeDaoPays;
-        DaoFromage homeDaoFromage;
+        daoPays homeDaoPays;
+        daoFromage homeDaoFromage;
 
-        public Home(DaoPays thedaopays, DaoFromage thedaofromage)
+        public Home(daoPays thedaopays, daoFromage thedaofromage)
         {
             InitializeComponent();
             homeDaoPays = thedaopays;

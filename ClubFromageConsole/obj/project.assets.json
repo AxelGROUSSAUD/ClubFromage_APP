@@ -1530,6 +1530,7 @@
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
           "CsvHelper": "15.0.9",
+          "ModelLayer": "1.0.0",
           "MySql.Data": "8.0.22"
         },
         "compile": {

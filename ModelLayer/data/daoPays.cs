@@ -27,20 +27,20 @@ namespace Model.data
         public void Insert(Pays Unpays) //insérer une ligne
 
         {
-            Console.WriteLine("INSERT INTO pays (id,nom) values (" + Unpays.Id + ", '" + Unpays.Nom + "');");
-            _mydbal.Insert("INSERT INTO pays (id,nom) values (" + Unpays.Id + ", '" + Unpays.Nom.Replace("'", "''") + "');");
+            Console.WriteLine("INSERT INTO Pays values (" + Unpays.Id + ", '" + Unpays.Nom + "');");
+            _mydbal.Insert("INSERT INTO Pays values (" + Unpays.Id + ", '" + Unpays.Nom.Replace("'", "''") + "');");
 
         }
 
         public void Update(Pays Unpays)// mettre à jour une ligne
         {
-            _mydbal.Update("UPDATE pays set id = " + Unpays.Id + ", nom = '" + Unpays.Nom + "' where  id = " + Unpays.Id + " ;"); ;
+            _mydbal.Update("UPDATE Pays set id = " + Unpays.Id + ", nom = '" + Unpays.Nom + "' where  id = " + Unpays.Id + " ;"); ;
 
         }
 
         public void Delete(Pays Unpays) //supprimer une ligne
         {
-            _mydbal.Delete("DELETE FROM pays where id = " + Unpays.Id + " ;");
+            _mydbal.Delete("DELETE FROM Pays where id = " + Unpays.Id + " ;");
 
         }
         //CSVHelper
@@ -64,10 +64,10 @@ namespace Model.data
         public List<Pays> SelectAll()
         {
             List<Pays> lePays = new List<Pays>();
-            foreach (DataRow DataR in _mydbal.SelectALL("pays").Rows)
+            foreach (DataRow DataR in _mydbal.SelectALL("Pays").Rows)
             {
-                Console.WriteLine(DataR["id"] + " " + DataR["nom"]);
-                lePays.Add(new Pays((int)DataR["id"],(string) DataR["nom"]));
+                Console.WriteLine(DataR["idPays"] + " " + DataR["nom"]);
+                lePays.Add(new Pays((int)DataR["idPays"],(string) DataR["nom"]));
                 Console.WriteLine("ajouter");
             }
             return lePays;
@@ -76,13 +76,13 @@ namespace Model.data
         public Pays selectByName(string UnPays)
         {
             DataRow dr = _mydbal.SelectByField("pays", "nom like '" + UnPays + "'").Rows[0];
-            return new Pays((int)dr["id"],(string)dr["nom"]);
+            return new Pays((int)dr["idPays"],(string)dr["nom"]);
         }
 
         public Pays selectByID(int IDPays)
         {
             DataRow dr = _mydbal.SelectByID("pays",IDPays );
-            return new Pays((int)dr["id"], (string)dr["nom"]);
+            return new Pays((int)dr["idPays"], (string)dr["nom"]);
         }
 
 

@@ -1524,6 +1524,20 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XmlDocument.dll": {}
         }
+      },
+      "ModelLayer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "CsvHelper": "15.0.9",
+          "MySql.Data": "8.0.22"
+        },
+        "compile": {
+          "bin/placeholder/ModelLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ModelLayer.dll": {}
+        }
       }
     }
   },
@@ -5462,11 +5476,17 @@
         "system.xml.xpath.xmldocument.4.0.1.nupkg.sha512",
         "system.xml.xpath.xmldocument.nuspec"
       ]
+    },
+    "ModelLayer/1.0.0": {
+      "type": "project",
+      "path": "../ModelLayer/ModelLayer.csproj",
+      "msbuildProject": "../ModelLayer/ModelLayer.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "CsvHelper >= 15.0.9",
+      "ModelLayer >= 1.0.0",
       "MySql.Data >= 8.0.22"
     ]
   },
@@ -5502,7 +5522,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Axel_Groussaud\\Projets.Exercices_visual_studio\\Club_Fromage\\ModelLayer\\ModelLayer.csproj": {
+              "projectPath": "D:\\Axel_Groussaud\\Projets.Exercices_visual_studio\\Club_Fromage\\ModelLayer\\ModelLayer.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

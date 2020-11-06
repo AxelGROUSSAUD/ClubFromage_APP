@@ -30,3 +30,12 @@ D:\Dimitri DEFRESNE\ClubFromageWpf\obj\Debug\netcoreapp3.1\ClubFromageWpf.csproj
 D:\Dimitri DEFRESNE\ClubFromageWpf\obj\Debug\netcoreapp3.1\ClubFromageWpf.dll
 D:\Dimitri DEFRESNE\ClubFromageWpf\obj\Debug\netcoreapp3.1\ClubFromageWpf.pdb
 D:\Dimitri DEFRESNE\ClubFromageWpf\obj\Debug\netcoreapp3.1\ClubFromageWpf.genruntimeconfig.cache
+D:\Axel_Groussaud\Projets.Exercices_visual_studio\Club_Fromage\ClubFromageWpf\obj\Debug\netcoreapp3.1\ClubFromageWpf.csprojAssemblyReference.cache
+D:\Axel_Groussaud\Projets.Exercices_visual_studio\Club_Fromage\ClubFromageWpf\obj\Debug\netcoreapp3.1\GestionFromages.g.cs
+D:\Axel_Groussaud\Projets.Exercices_visual_studio\Club_Fromage\ClubFromageWpf\obj\Debug\netcoreapp3.1\Home.g.cs
+D:\Axel_Groussaud\Projets.Exercices_visual_studio\Club_Fromage\ClubFromageWpf\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+D:\Axel_Groussaud\Projets.Exercices_visual_studio\Club_Fromage\ClubFromageWpf\obj\Debug\netcoreapp3.1\App.g.cs
+D:\Axel_Groussaud\Projets.Exercices_visual_studio\Club_Fromage\ClubFromageWpf\obj\Debug\netcoreapp3.1\ClubFromageWpf_MarkupCompile.cache
+D:\Axel_Groussaud\Projets.Exercices_visual_studio\Club_Fromage\ClubFromageWpf\obj\Debug\netcoreapp3.1\ClubFromageWpf_MarkupCompile.lref
+D:\Axel_Groussaud\Projets.Exercices_visual_studio\Club_Fromage\ClubFromageWpf\obj\Debug\netcoreapp3.1\ClubFromageWpf.dll
+D:\Axel_Groussaud\Projets.Exercices_visual_studio\Club_Fromage\ClubFromageWpf\obj\Debug\netcoreapp3.1\ClubFromageWpf.pdb

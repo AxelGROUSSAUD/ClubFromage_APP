@@ -20,7 +20,9 @@ namespace ClubFromageConsole
             daoPays daoP = new daoPays(MaBDD); // nouvel instance dao avec un DBAL
             daoFromage daoF = new daoFromage(MaBDD, daoP);
             daoF.MainCSV();
-
+            string query;
+            query = "INSERT INTO Pays VALUES ('1','France')";
+            MaBDD.Insert(query);
             //------------------------------------------------------------
             //selectbyID dao fromage
             //Console.WriteLine(daoF.SelectByID(1).Nom);

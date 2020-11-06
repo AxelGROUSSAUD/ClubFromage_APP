@@ -7,3 +7,12 @@ D:\Dimitri DEFRESNE\ModelLayer\obj\Debug\netcoreapp3.1\ModelLayer.csproj.CoreCom
 D:\Dimitri DEFRESNE\ModelLayer\bin\Debug\netcoreapp3.1\ModelLayer.pdb
 D:\Dimitri DEFRESNE\ModelLayer\obj\Debug\netcoreapp3.1\ModelLayer.dll
 D:\Dimitri DEFRESNE\ModelLayer\obj\Debug\netcoreapp3.1\ModelLayer.pdb
+D:\Axel_Groussaud\Projets.Exercices_visual_studio\Club_Fromage\ModelLayer\bin\Debug\netcoreapp3.1\ModelLayer.deps.json
+D:\Axel_Groussaud\Projets.Exercices_visual_studio\Club_Fromage\ModelLayer\bin\Debug\netcoreapp3.1\ModelLayer.dll
+D:\Axel_Groussaud\Projets.Exercices_visual_studio\Club_Fromage\ModelLayer\bin\Debug\netcoreapp3.1\ModelLayer.pdb
+D:\Axel_Groussaud\Projets.Exercices_visual_studio\Club_Fromage\ModelLayer\obj\Debug\netcoreapp3.1\ModelLayer.csprojAssemblyReference.cache
+D:\Axel_Groussaud\Projets.Exercices_visual_studio\Club_Fromage\ModelLayer\obj\Debug\netcoreapp3.1\ModelLayer.AssemblyInfoInputs.cache
+D:\Axel_Groussaud\Projets.Exercices_visual_studio\Club_Fromage\ModelLayer\obj\Debug\netcoreapp3.1\ModelLayer.AssemblyInfo.cs
+D:\Axel_Groussaud\Projets.Exercices_visual_studio\Club_Fromage\ModelLayer\obj\Debug\netcoreapp3.1\ModelLayer.csproj.CoreCompileInputs.cache
+D:\Axel_Groussaud\Projets.Exercices_visual_studio\Club_Fromage\ModelLayer\obj\Debug\netcoreapp3.1\ModelLayer.dll
+D:\Axel_Groussaud\Projets.Exercices_visual_studio\Club_Fromage\ModelLayer\obj\Debug\netcoreapp3.1\ModelLayer.pdb

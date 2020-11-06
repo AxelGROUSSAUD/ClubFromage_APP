@@ -28,20 +28,20 @@ namespace Model.data
 
         public void Insert(Fromage Unfromage)
         {
-            Console.WriteLine("INSERT INTO fromage (id,pays_origine_id,nom,creation,image) values (" + Unfromage.Id + ", " + Unfromage.Idpays.Id + ", '" + Unfromage.Nom + "', " + Unfromage.Creation + ", '" + Unfromage.Image + "') ;");
-            _mydbal.Insert("INSERT INTO fromage (id,pays_origine_id,nom,creation,image) values (" + Unfromage.Id + ", " + Unfromage.Idpays.Id + ", '" + Unfromage.Nom + "', '" + Unfromage.Creation + "', '" + Unfromage.Image + "') ;");
+            Console.WriteLine("INSERT INTO Fromage  values (" + Unfromage.Id + ", " + Unfromage.Idpays.Id + ", '" + Unfromage.Nom + "', " + Unfromage.Creation + ", '" + Unfromage.Image + "') ;");
+            _mydbal.Insert("INSERT INTO Fromage  values (" + Unfromage.Id + ", " + Unfromage.Idpays.Id + ", '" + Unfromage.Nom + "', '" + Unfromage.Creation + "', '" + Unfromage.Image + "') ;");
 
         }
 
         public void Update(Fromage UnFromage)
         {
-            _mydbal.Insert("UPDATE fromage set id = " + UnFromage.Id + ", id_pays_origin = " + UnFromage.Idpays.Id + ", nom = " + UnFromage.Nom + ",creation = '" + UnFromage.Creation + "', image = " + UnFromage.Image + " Where id = " + UnFromage.Id + " ;");
+            _mydbal.Insert("UPDATE Fromage set id = " + UnFromage.Id + ", id_pays_origin = " + UnFromage.Idpays.Id + ", nom = " + UnFromage.Nom + ",creation = '" + UnFromage.Creation + "', image = " + UnFromage.Image + " Where id = " + UnFromage.Id + " ;");
 
         }
 
         public void Delete(Fromage UnFromage)
         {
-            _mydbal.Insert("DELETE FROM fromage where " + UnFromage.Id + " ;");
+            _mydbal.Insert("DELETE FROM Fromage where " + UnFromage.Id + " ;");
 
         }
         
@@ -49,7 +49,7 @@ namespace Model.data
         public List<Fromage> SelectAll()
         {
             List<Fromage> lesfromage = new List<Fromage>();
-            foreach (DataRow DataR in _mydbal.SelectALL("fromage").Rows)
+            foreach (DataRow DataR in _mydbal.SelectALL("Fromage").Rows)
             {
                 lesfromage.Add(new Fromage
                     (
@@ -67,7 +67,7 @@ namespace Model.data
         }
         public Fromage SelectByName(string UnFromage)
         {
-            DataRow DataR = _mydbal.SelectByField("fromage", "nom like '" + UnFromage + "'").Rows[0];
+            DataRow DataR = _mydbal.SelectByField("Fromage", "nom like '" + UnFromage + "'").Rows[0];
             return new Fromage(
                 (int)DataR["id"],
                 _myDaoPays.selectByID((int)DataR["pays_origine_id"]),
@@ -78,7 +78,7 @@ namespace Model.data
         }
         public Fromage SelectByID(int IDPays)
         {
-            DataRow DataR = _mydbal.SelectByID("fromage", IDPays);
+            DataRow DataR = _mydbal.SelectByID("Fromage", IDPays);
             return new Fromage(
                  (int)DataR["id"],
                  _myDaoPays.selectByID((int)DataR["pays_origine_id"]),
