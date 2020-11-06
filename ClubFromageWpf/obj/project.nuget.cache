@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HvRlP710yeEgbxFwhJQsLvpi5MizD+j+cr4JoverG3rYAc98BcrveF7FS206pX+KDx5Jg+lJeStgH/pQuMoJdw==",
+  "dgSpecHash": "E4vwAyrKh99IrIT3MxLqUFg5L56sjqs2dH9iZ/xqFRHMMpTCIRZaZlwsQxlpx0JO5rK/zNA7KCjzwTYziYbdIg==",
   "success": true,
-  "projectFilePath": "D:\\Dimitri DEFRESNE\\ClubFromge\\ClubFromageWpf\\ClubFromageWpf.csproj",
+  "projectFilePath": "D:\\Dimitri DEFRESNE\\ClubFromage_APP\\ClubFromageWpf\\ClubFromageWpf.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\SIO2\\.nuget\\packages\\bouncycastle.netcore\\1.8.3\\bouncycastle.netcore.1.8.3.nupkg.sha512",
     "C:\\Users\\SIO2\\.nuget\\packages\\csvhelper\\15.0.9\\csvhelper.15.0.9.nupkg.sha512",

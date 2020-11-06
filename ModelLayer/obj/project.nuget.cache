@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nmfWbn2h/ABN+JKDYowniCJcsm/tBkQQAW8QLkEVOGtT7L/6sbnkVeg7+FIS4bg9cNxaRkFCVCArGphkWNrMzg==",
+  "dgSpecHash": "4RNNc1WPjQC8cq5iDR3ii0qKqXRre95qGI1Ses31EnSVg2jBOo5u1oMdG2P3A/g+BWOR3aZ+tPdH8Czs9cnG4w==",
   "success": true,
-  "projectFilePath": "D:\\Dimitri DEFRESNE\\ClubFromge\\ModelLayer\\ModelLayer.csproj",
+  "projectFilePath": "D:\\Dimitri DEFRESNE\\ClubFromage_APP\\ModelLayer\\ModelLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\SIO2\\.nuget\\packages\\bouncycastle.netcore\\1.8.3\\bouncycastle.netcore.1.8.3.nupkg.sha512",
     "C:\\Users\\SIO2\\.nuget\\packages\\csvhelper\\15.0.9\\csvhelper.15.0.9.nupkg.sha512",
