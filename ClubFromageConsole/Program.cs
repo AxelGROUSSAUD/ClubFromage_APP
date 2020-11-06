@@ -16,12 +16,13 @@ namespace ClubFromageConsole
         {
 
             DBAL MaBDD = new DBAL();//nouvel instance DBAL
-            Console.WriteLine("Bonjour !");
+            //Console.WriteLine("Bonjour !");
             daoPays daoP = new daoPays(MaBDD); // nouvel instance dao avec un DBAL
             daoFromage daoF = new daoFromage(MaBDD, daoP);
-            daoF.MainCSV();
+            //daoF.MainCSV();
             string query;
-            query = "INSERT INTO Pays VALUES ('1','France')";
+            query = "INSERT INTO Fromage VALUES ('1','1','camenbert','0001-01-01 15:00:00')";
+            //query = "DELETE FROM Pays WHERE idPays = 1 ;";
             MaBDD.Insert(query);
             //------------------------------------------------------------
             //selectbyID dao fromage
@@ -94,7 +95,7 @@ namespace ClubFromageConsole
             //daoP.Update(p3);
             //daoP.Delete(p3);
 
-            Console.WriteLine("------- FIN -------");
+            //Console.WriteLine("------- FIN -------");
         }
 
     }
